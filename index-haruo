@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./sample-haruo.css" type="text/css" />
+    <title>情報サービス演習B</title>
+  </head>
+  <meta name="robots" content="noindex">
+  <body>
+  <div class="circle3">
+   <p>2012122 渡辺結名<br>特別課題１</p>
+  </div>
+  <br>
+  <div class="box1">
+   <p>かつて演歌歌手が「お客さまは神さまです」を広めた、と聞きました。歌手など情報を知りたいです。どのような書籍にありますか。</p>
+  
+  <div class="caption_box">
+    <h1 class="caption">キーワード</h1>
+    <p>お客様　神様　三波春夫</p>
+   
+   <div class="caption_box">
+    <h1 class="caption">情報資源</h1>
+    <p>その言葉を発した演歌歌手とは、「三波春夫」さんであり、<br><a href="https://www.php.co.jp/books/detail.php?isbn=978-4-569-57593-3">PHP研究所発行　三波春夫著『歌藝の天地　歌謡曲の源流を辿る』</a><br>この本に「お客様は神様です」や彼の人生について書かれているようです。</p>
+  <div class="caption_box">
+  <h1 class="caption">回答</h1>
+  <p>まず、書籍ではありませんが、三波さんのオフィシャルサイトには情報が載っているようです。<br><a href="https://www.minamiharuo.jp/profile/index2.html">「お客様は神様です」について</a><br>このサイトの途中箇所に、参考図書の記載があります。それが上記に記載した<a href="https://www.php.co.jp/books/detail.php?isbn=978-4-569-57593-3">本</a>となります。</p>
+  <p>この方のプロフィールも同サイトに記載があります。<br><a href="https://www.minamiharuo.jp/profile/index.html">三波春夫プロフィール</a>
+
+</p>
+</div>
+  </body>
+</html>
