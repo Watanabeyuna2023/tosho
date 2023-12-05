@@ -1,0 +1,46 @@
+body{
+  background: #adff2f;
+  background-image: url(https://www.minamiharuo.jp/img/090831/header_02.jpg);
+  color: #d70035;
+  font-weight: bold;
+  /*opacity: 0.5;*/
+background-color:rgba(255,255,255,0.5);
+background-blend-mode:lighten;
+}
+
+.circle3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #9944cc;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  color: #00ff00;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.box1 {
+border:#00ff00 3px dotted; /*境界線の指定*/
+padding:10px;
+}
+
+.caption_box{
+  position: relative;
+
+  margin-top: 1em;
+  padding: 1em 2em;
+  border: 1px solid black;
+}
+
+.caption_box .caption{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  font-size: 1em;
+  padding: 0 1em;
+  margin: 0;
+  background-color: blue;
+  transform: translateY(-50%) translateX(1em);
+}
