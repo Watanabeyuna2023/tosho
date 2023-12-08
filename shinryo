@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>情報サービス演習B 第10回</title>
+    <link rel="stylesheet" href="shinryo.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      header {
+        position: relative;
+        height: 50vh;
+      }
+      header {
+        background: url(https://www.chidori-homecare.com/wp-content/uploads/2022/07/top_002-80.jpg) center / cover;
+      }
+      </style>
+  </head>
+  <meta name="robots" content="noindex">
+  <body>
+    <div id="wrapper">
+      <header class="cover">
+        <h1>情報サービス演習B 第10回</h1>
+      </header>
+
+      <div id="contents">
+      <aside id="sub">
+        <div class="box">
+            <ul class="ul">
+            <li><a href="#ex1">　質問</a></li>
+            <li><a href="#ex2">　キーワード</a></li>
+            <li><a href="#ex3">　情報資源</a></li>
+            <li><a href="#ex4">　回答・調査プロセス</a></li>
+            <li><a href="#ex5">　回答</a></li>
+            <li><a href="#ex6">　書籍</a></li>
+            <li><a href="#ex7">　おわりに、これからの公認心理士</a></li>
+            
+          </ul>
+        </div>
+      </aside>
+      <main id="main">
+        <h2 id="ex1">質問</h2>
+        <div class="balloon1-left">
+         <p>アルバイトを複数しながら生活している25歳の男性です。福岡と札幌で「無料低額診療」を実施している医療機関を知っておきたいのですが。こうした福祉制度の背景も勉強していきたいのですが関連の書籍を教えてください。</p>
+        </div>
+
+        <h2 id="ex2">キーワード</h2>
+          <ul style="line-height: 1.5;padding: 0.5em 0;list-style-type: none!important;/*ポチ消す*/">
+          <li>　<i class="fa fa-tag my-gray fa-fw" aria-hidden="true"></i> 無料低額診療</li>
+          <li>　<i class="fa fa-tag my-gray fa-fw" aria-hidden="true"></i> 家庭裁判所</li>
+          <li>　<i class="fa fa-tag my-gray fa-fw" aria-hidden="true"></i> 裁判記録</li>
+          <li>　<i class="fa fa-tag my-gray fa-fw" aria-hidden="true"></i> 保存</li>
+          <li>　<i class="fa fa-tag my-gray fa-fw" aria-hidden="true"></i> 司法</li>
+         
+          </ul>
+
+        <h2 id="ex3">情報資源</h2>
+          <ol class="test7">
+            <li>札幌・福岡の無料低額診療についての情報資源を提示します。<br>
+              <a href="https://www.city.sapporo.jp/hokenjo/f4imuyaku/f98muryoteigaku.html" target="_blank">・札幌市
+              </a><br>
+              <a href="https://www.city.fukuoka.lg.jp/fukushi/seikatujiritu/health/001_3.html" target="_blank">・福岡市</a><br>
+              
+            </li>
+           
+          </ol>
+
+        <h2 id="ex4">回答・調査プロセス</h2>
+          <ol>
+          <li>Googleで札幌市と福岡市の無料低額診療について検索</li>
+          <li>無料低額診療についての情報資源を紹介</li>
+          <li>無料低額診断が受けられる施設の紹介</li>
+          <li>無料低額診断についての本を紹介</li>
+          <li>補足的コメント</li>
+          </ol>
+
+        <h2 id="ex5">回答</h2>
+          <p>無料低額診療とは、<br><a href="https://www.mhlw.go.jp/shingi/2008/01/dl/s0121-7d.pdf" target="_blank">厚生労働省</a>によると、以下のように定義されます。</p>
+          <blockquote>
+            <p>無料低額診療事業は、社会福祉法第2条第3項第9号の規定に基づき、生計困難者が、経済的な理由によって必要な医療を受ける機会を制限されることの内容、無料又は低額な料金で診療を行う事業。</p>
+            <cite>厚生労働省</cite>
+        </blockquote>
+
+          <h3 class="h3">無料低額診療事業</h3>
+           <h4>無料低額診療は、各自治体の法人団体の運営する病院又は診療所で行われています。</h4>
+             
+  
+           <h3 class="h3">札幌市の診療所</h3>
+           <div class="box1">
+           <ol>
+             <a href="https://www.sapporojikeikai.or.jp/facility/jikeikai/" target="_blank">慈啓会病院（社会福祉法人人札幌慈啓会）</a><br>
+             <a href="http://www.kita-popura.jp/" target="_blank">勤医協札幌北区ぽぷらクリニック（公益社団法人北海道勤労者医療協会）</a><br>
+             <a href="https://www.kin-ikyo-chuo.jp/" target="_blank">勤医協中央病院（公益社団法人北海道勤労者医療協会）</a><br>
+             <a href="https://www.kin-ikyo-chuo.jp/kin-ikyo-fushiko10/index.php" target="_blank">勤医協伏古10条クリニック(公益社団法人北海道勤労者医療協会)</a><br>
+             <a href="http://www.satsubyo.com/" target="_blank">勤医協札幌病院（公益社団法人北海道勤労者医療協会）</a><br>
+             <a href="https://kin-ikyo.jp/sapporominami/" target="_blank">勤医協札幌みなみ診療所（公益社団法人北海道勤労者医療協会）</a>
+             <a href="http://www.rouken-kashiwa.jp/clinic.html" target="_blank">勤医協平和通りクリニック（公益社団法人北海道勤労者医療協会）</a><br>
+             <a href="https://kin-ikyo.jp/tsukisamu/" target="_blank">勤医協月寒ファミリークリニック（公益社団法人北海道勤労者医療協会）</a><br>
+             <a href="https://kin-ikyo.jp/momijidai/" target="_blank">勤医協もみじ台内科診療所（公益社団法人北海道勤労者医療協会）</a><br>
+             <a href="http://hidamari.clinic/" target="_blank">勤医協西区ひだまりクリニック（公益社団法人北海道勤労者医療協会）</a>
+             <a href="http://www.kin-ikyo-nishiku.jp/" target="_blank">勤医協札幌西区病院（公益社団法人北海道勤労者医療協会）</a>
+             <a href="http://www.kin-ikyo-shika.jp/kitaku.html" target="_blank">勤医協きたく歯科診療所（医療法人北海道勤労者歯科医療協会）</a>
+             <a href="http://www.kin-ikyo-shika.jp/fushiko.html" target="_blank">勤医協札幌ふしこ歯科診療所（医療法人北海道勤労者歯科医療協会）</a>
+             <a href="http://www.kin-ikyo-shika.jp/sapporo.html" target="_blank">勤医協札幌歯科診療所（医療法人北海道勤労者歯科医療協会）</a>
+             <a href="http://www.kin-ikyo-shika.jp/momiji.html" target="_blank">勤医協もみじ台歯科診療所（医療法人北海道勤労者歯科医療協会）</a>
+             <a href="http://www.kin-ikyo-shika.jp/nishiku.html" target="_blank">勤医協にしく歯科診療所（医療法人北海道勤労者歯科医療協会）</a>
+             
+             <a href="http://nihoniryou-h.jp/" target="_blank">社会福祉法人ノテ福祉会　日本医療大学病院（社会福祉法人ノテ福祉会）</a>
+             
+             
+           </ol>
+        　 </div>
+      
+          <h3 class="h3">福岡市の診療所</h3>
+            <div class="box1">
+            <ol>
+              <a href="https://www.saiseikai-hp.chuo.fukuoka.jp/" target="_blank">福岡県済生会福岡総合病院（社会福祉法人恩賜財団済生会）</a><br>
+              <a href="https://www.chidoribashi-hp.or.jp/" target="_blank">千鳥橋病院（公益社団法人福岡医療団）</a><br>
+              <a href="https://tatara-reha.jp/" target="_blank">たたらリハビリテーション病院（公益社団法人福岡医療団）</a><br>
+              <a href="https://chiyoshin.com/" target="_blank">千代診療所(公益社団法人福岡医療団)</a><br>
+              <a href="https://www.sfid.jp/shinryosho/shirohama/" target="_blank">千鳥橋病院附属城浜診療所（公益社団法人福岡医療団）</a><br>
+              <a href="https://www.sfid.jp/shinryosho/ookusu/" target="_blank">千鳥橋病院附属大楠診療所（公益社団法人福岡医療団）</a><br>
+              <a href="https://www.sfid.jp/shinryosho/shinmuromi/" target="_blank">千鳥橋病院附属新室見診療所（公益社団法人福岡医療団）</a><br>
+              <a href="https://chidorishika.jp/chidoribashi/" target="_blank">千鳥橋病院附属歯科診療所（公益社団法人福岡医療団）</a><br>
+              <a href="https://www.chidori-homecare.com/" target="_blank">ちどりばし在宅診療所（公益社団法人福岡医療団）</a>
+              
+            </ol>
+         　 </div>
+         
+          
+      
+      
+        <h2 id="ex6">無料低額診断に関係する書籍</h2>
+          <div class="flex">
+            <figure class="image"><a href="https://www.amazon.co.jp/%E7%84%A1%E6%96%99%E4%BD%8E%E9%A1%8D%E8%A8%BA%E7%99%82%E4%BA%8B%E6%A5%AD%E3%81%AE%E3%81%99%E3%81%B9%E3%81%A6-%E5%BD%B9%E5%89%B2%E3%83%BB%E5%AE%9F%E8%B7%B5%E3%83%BB%E5%AE%9F%E5%8B%99-%E5%90%89%E6%B0%B8-%E7%B4%94/dp/4863422725" target="_blank"><img src="https://m.media-amazon.com/images/I/81ogqimeC0L._SY466_.jpg" alt=""></a></figure>
+              <div class="right">
+                <p class="title"><a href="https://www.amazon.co.jp/%E7%84%A1%E6%96%99%E4%BD%8E%E9%A1%8D%E8%A8%BA%E7%99%82%E4%BA%8B%E6%A5%AD%E3%81%AE%E3%81%99%E3%81%B9%E3%81%A6-%E5%BD%B9%E5%89%B2%E3%83%BB%E5%AE%9F%E8%B7%B5%E3%83%BB%E5%AE%9F%E5%8B%99-%E5%90%89%E6%B0%B8-%E7%B4%94/dp/4863422725" target="_blank">無料低額診療事業のすべて 役割・実践・実務</a></p>
+                <blockquote>
+                  <p>貧困格差が広がる中で、医療が受けられない人が無料、または低額の自己負担で診療を受けられる「無料低額診療事業」。対象や減免は個々の医療機関によって違い、配置されているソーシャルワーカーが判断します。さらに、当事者の生活問題をともに解決し、再建する手助けをする。 事業の意義や役割、制度、実績などの全体像を、実践をまじえてていねいにまとめた。</p>
+    
+                   
+                    
+                  <cite>Amazon</cite>
+                </blockquote>
+              </div>
+          </div>
+      
+       
+          <div class="flex">
+            <figure class="image"><a href="https://www.amazon.co.jp/%E3%81%84%E3%81%AE%E3%81%A1%E3%82%92%E3%81%A4%E3%81%AA%E3%81%90%E7%84%A1%E6%96%99%E4%BD%8E%E9%A1%8D%E8%A8%BA%E7%99%82%E4%BA%8B%E6%A5%AD-%E5%90%89%E6%B0%B8-%E7%B4%94/dp/4863421729/ref=pd_bxgy_d_sccl_1/355-8787659-4079353?pd_rd_w=0SgPa&content-id=amzn1.sym.5773d2b1-1110-481e-bc73-38bad5475a70&pf_rd_p=5773d2b1-1110-481e-bc73-38bad5475a70&pf_rd_r=G4AFVH4WPFP2PQ5ZEBBJ&pd_rd_wg=NnvUp&pd_rd_r=7d5b61ad-45ef-4602-8d2a-eb2f97b62c66&pd_rd_i=4863421729&psc=1" target="_blank"><img src="https://m.media-amazon.com/images/I/81oJkfJaFPL._SY466_.jpg" alt=""></a></figure>
+              <div class="right">
+                <p class="title"><a href="https://www.amazon.co.jp/%E3%81%84%E3%81%AE%E3%81%A1%E3%82%92%E3%81%A4%E3%81%AA%E3%81%90%E7%84%A1%E6%96%99%E4%BD%8E%E9%A1%8D%E8%A8%BA%E7%99%82%E4%BA%8B%E6%A5%AD-%E5%90%89%E6%B0%B8-%E7%B4%94/dp/4863421729/ref=pd_bxgy_d_sccl_1/355-8787659-4079353?pd_rd_w=0SgPa&content-id=amzn1.sym.5773d2b1-1110-481e-bc73-38bad5475a70&pf_rd_p=5773d2b1-1110-481e-bc73-38bad5475a70&pf_rd_r=G4AFVH4WPFP2PQ5ZEBBJ&pd_rd_wg=NnvUp&pd_rd_r=7d5b61ad-45ef-4602-8d2a-eb2f97b62c66&pd_rd_i=4863421729&psc=1" target="_blank">いのちをつなぐ無料低額診療事業</a></p>
+               
+              </div>
+          </div>
+
+        
+            <h2 id="ex7">おわりに、これからの無料低額診断</h2>
+   
+              <p>無料低額診断とは，各自治体の病院や診断所が行っている、低額又は無料の診断サービスです。<br>書籍に関しては、吉永純（よしなが・あつし）さんのものがヒットします。吉永さんには、ほかにも生活保護関連の著書もあるようです。</p>
+
+                
+             </p>
+          <footer>
+            <p class="copyright"><small>藤女子大学　文学部　日本語・日本文学科　4年　渡辺結名（2012122）</small></p>
+          </footer>
+      </main>
+      </div>
+    </div>
+  </body>
+</html>
