@@ -1,0 +1,514 @@
+@charset "UTF-8";
+
+html {
+	font-size: 65%;
+	line-height: 2;
+	font-family: "游ゴシック", YuGothic, sans-serif;
+	text-align: center;
+}
+body, figure {
+	margin: 0;
+}
+
+/* サイズの値にパディング／ボーダーも含むようにする */
+*, *::before, ::after {
+	box-sizing: border-box;
+}
+
+/* スクリーントーンのカバー */
+.cover::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,3,.3) radial-gradient(rgba(0,0,0,.3) 40%, transparent 0) center / 5px 5px;
+}
+
+/* フォトキャプション */
+.caption {
+	position: absolute;
+	z-index: 1;
+	right: 1em;
+	bottom: 1em;
+	color: #61c1bd;
+	font-size: 2.2rem;
+	line-height: 1;
+	font-family: "Dosis", sans-serif;
+	letter-spacing: .05em;
+	text-align: right;
+}
+.caption a {
+	color: inherit;
+	text-decoration: inherit;
+}
+.caption a:hover {
+	text-decoration: underline;
+}
+
+/* サイトタイトルをヘッダーに中央配置 */
+header h1 {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 100%;
+	margin: 0;
+	padding: 0 .5em;
+	color: #ffffb3;
+	font-size: 5rem;
+	line-height: 1.4;
+	font-family: "Dosis", sans-serif;
+	letter-spacing: .1em;
+	transform: translateY(-50%);
+}
+@media all and (max-width: 480px) {
+	header h1 {
+		font-size: 4rem;
+	}
+}
+
+/* ページコンテンツのスタイル指定 */
+main {
+  padding: 0em 16px 0em 16px;
+	font-size: 1.6rem;
+	text-align: left;
+}
+main h1,
+main .lead,
+main section {
+	max-width: 768px;
+	margin: 1em auto;
+}
+main h1,
+main h2,
+main h3 {
+	line-height: 1.4;
+}
+main h2,
+main h3 {
+	font-family: "Dosis", sans-serif;
+	letter-spacing: .05em;
+}
+main h1 {
+	margin-bottom: 2em;
+	font-size: 3rem;
+	font-feature-settings: "palt";
+}
+main h2 {
+	font-size: 3rem;
+}
+main h3 {
+	font-size: 2.4rem;
+}
+
+/* フッター／コピーライトのスタイル指定 */
+footer {
+	padding: 40px 16px;
+}
+footer .copyright small {
+	color: #868686;
+	font-size: 1.4rem;
+	font-family: "Ubuntu Condensed", sans-serif;
+	letter-spacing: .05em;
+}
+
+/*  サイドバー   */
+#contents{
+  display: flex;
+  padding: 100px 250px 40px 100px;
+  box-sizing: border-box;
+}
+#main {
+  box-sizing: border-box;
+  height: auto;
+  flex: 1;
+}
+#sub {
+  font-size: 15px;
+  box-sizing: border-box;
+  width: 300px;
+  background: #FFF;
+  margin-right: 40px;
+}
+#sub .box{
+  text-align: left;
+  position: sticky;
+  top: 50px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*  フォント   */
+body {
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  
+}
+
+h2 {
+  position: relative;
+  margin-top: 50px;
+  padding-left: 20px;
+}
+
+h2:before {
+content: "";
+    display: inline-block;
+    position: absolute;
+  top: 0;
+    left: 0;
+    bottom: -7px;
+    width: 6px;
+    height: 100%;
+    border-radius: 5px;
+  background: #143268;
+}
+
+.h3 {
+  position: relative;
+  margin-top: 50px;
+  padding-left: 20px;
+}
+
+.h3:before {
+content: "";
+    display: inline-block;
+    position: absolute;
+  top: 0;
+    left: 0;
+    bottom: -7px;
+    width: 6px;
+    height: 100%;
+    border-radius: 5px;
+  background: #98c9d9;
+}
+
+h4 {
+  padding: 0.5em;/*文字周りの余白*/
+  color: #000;/*文字色*/
+  background: #f5f5f5;/*背景色*/
+  border-left: solid 5px #98c9d9;/*左線（実線 太さ 色）*/
+}
+
+ul li {padding:5px;}
+ol li {padding:5px;}
+
+.test7{
+  list-style: square;/*黒四角*/
+}
+
+.my-gray {color: #98c9d9}
+
+/*  リンクテキストのデザイン   */
+a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+/*  カーソルをのせたときのデザイン   */
+a:hover {
+  color: #98c9d9;
+}
+
+/*  行間   */
+.ex1{
+font-size:16px;
+line-height:30px;
+}
+
+/*  マーカー   */
+.under {
+  background: linear-gradient(transparent 50%, #ffffb3 50%);
+}
+
+/*  吹き出し   */
+.balloon1-left {
+  position: relative;
+  display: inline-block;
+  margin: 10px 0 15px 15px;
+  padding: 10px 15px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #4a4947;
+  font-size: 18px;
+  font-weight: bold;
+  background: #f5f5f5;
+}
+
+.balloon1-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -27px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #f5f5f5;
+}
+
+.balloon1-left p {
+  margin: 0;
+  padding: 0;
+}
+
+/*  リストにタイトルタブをつける   */
+.ul {
+  font-weight: bold;
+  font-size: 16px;
+  border: solid 2px #98c9d9;
+  padding: 0.5em;
+  position: relative;
+  margin-top: 2em;
+}
+.ul li {
+  line-height: 1.5;
+  padding: 0.5em 0 0.5em 1.4em;
+  border-bottom: dashed 1px silver;
+  list-style-type: none!important;
+}
+.ul li:last-of-type {
+  border-bottom: none;
+}
+.ul li:before {
+  /*リスト内のアイコン*/
+  font-family: FontAwesome;
+  content: "\f138";/*アイコン種類*/
+  position: absolute;
+  left : 1em; /*左端からのアイコンまで*/
+  color: #98c9d9; /*アイコン色*/
+}
+.ul li:after {
+  /*タイトルタブ*/
+  background: #98c9d9;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: -2px;
+  bottom: 100%;
+  padding: 5px 20px;
+  content: "目次";/*タブの文字*/
+  letter-spacing: 0.05em;/*字間*/
+}
+
+/*  実線で囲むだけ   */
+.box1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 2px #4a4947;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*  ノート風ボックス   */
+.box-design5 {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    background-image:  linear-gradient(#e1eef5 1px, transparent 1px), linear-gradient(to right, #e1eef5 1px, #fff 1px);
+    background-size: 20px 20px;
+  }
+
+/*  ずらし影ボックス   */
+.box-design9 {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid #434343;
+  position: relative;
+}
+.box-design9::after {
+  content: '';
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -7px;
+  left: 7px;
+  z-index: -1;
+}
+
+.box-design13 {
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px dashed #98c9d9;
+    position: relative;
+  }
+  .box-design13-ttl {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background-color: #fff;
+    padding: 0 0.5em;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+/*  ラベルタイトルボックス   */
+.box-design14 {
+    margin: 20px auto 20px 20px;
+    padding: 20px;
+    border: 2px solid #4a4947;
+  }
+  .box-design14-ttl {
+    position: relative;
+    left: -40px;
+    background-color: #143268;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+/*  上部の横幅いっぱいにタイトル   */
+  .box-design15 {
+    margin: 20px auto;
+  }
+  .box-design15-ttl {
+    background-color: #61c1bd;
+    color: #fff;
+    padding: 0.5em 20px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .box-design15-txt {
+    padding: 10px 20px;
+    border: 2px solid #61c1bd;
+  }
+
+/*  吹き出し風のタイトルボックス   */
+  .box-design17 {
+    margin: 40px auto 20px;
+    padding: 20px 20px 10px 20px;
+    border: 2px solid #dddddd;
+  }
+  .box-design17-ttl {
+    background-color: #61c1bd;
+    color: #fff;
+    border-radius: 100vh;
+    padding: 10px 1.5em;
+    margin: -55px 0 0 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/* 横並び */
+
+.flex {
+  display: flex; /*横並び*/
+}
+.flex .image {
+  width: 500px; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .image img {
+  width: 100%;
+  height: auto;
+}
+.flex .right {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+.flex .title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.flex .text {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.map {
+  width: 100%;
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.map iframe {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Zitat*/
+blockquote {
+  position: relative;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-style: italic;
+  color: #4e4e4e;
+  background: #fff3e1;
+}
+
+blockquote:before{
+  display: inline-block;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  content: "\f10d";
+  font-family: FontAwesome;
+  color: #ffe2b8;
+  font-size: 58px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+blockquote:after{
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  text-align: center;
+  content: "\f10e";
+  font-family: FontAwesome;
+  color: #ffe2b8;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+blockquote p {
+  position: relative;
+  padding: 0;
+  margin: 10px 0;
+  z-index: 3;
+  line-height: 1.7;
+}
+
+blockquote cite {
+  position: relative;
+  z-index: 3;
+  display: block;
+  text-align: right;
+  color: #888888;
+  font-size: 0.9em;
+}
+
