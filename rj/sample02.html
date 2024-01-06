@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML例文集</title>
+    <meta name="author" content="谷川 靖郎">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+    <!-- FontAwesomeを使う -->
+    <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css" type="text/css" media="all" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" id="highlight-theme">
+
+  </head>
+
+    <body>
+      <div class="reveal">
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+
+          <section>
+            <h1>デザインで遊ぶ</h1>
+            <hr />
+            <ul style="list-style:none">
+              <li>情報リテラシーA</li>
+              <li>講師：谷川 靖郎</li>
+            </ul>
+          </section>
+
+          <section>
+            <section>
+              <br /><br />
+              <h2>テーマの自作</h2>
+              <hr />
+              <h2><i class="fas fa-flip-vertical" style="color:#554433">テーマの自作</i></h2>
+            </section>
+
+            <section>
+              <h3>CSSファイルを変更する</h3>
+              <hr />
+              <p>css/theme/hoge.css</p>
+              <p>↓</p>
+              <p>色の設定などをいじる</p>
+            </section>
+          </section>
+
+          <section>
+            <section>
+              <br /><br />
+              <h2>背景デザインで遊ぶ</h2>
+              <hr />
+              <h2><i class="fas fa-flip-vertical" style="color:#554433">背景デザインで遊ぶ</i></h2>
+            </section>
+
+            <section data-background="#993333">
+              <h2>背景色の変更</h2>
+              <hr />
+              <ul>
+                <li>sectionタグに細工する：<code>&lt;section data-background="#993333"&gt;</code></li>
+              </ul>
+            </section>
+
+            <section data-background="https://upload.wikimedia.org/wikipedia/commons/a/ae/AfricanWildCat.jpg">
+              <h2>背景画像</h2>
+              <hr />
+              <ul>
+                <li>sectionタグに細工する：<code>&lt;section data-background="https://upload.wikimedia.org/wikipedia/commons/a/ae/AfricanWildCat.jpg"&gt;</code></li>
+              </ul>
+            </section>
+          </section>
+
+          <section>
+            <section>
+              <br /><br />
+              <h2>文字の大きさ</h2>
+              <hr />
+              <h2><i class="fas fa-flip-vertical" style="color:#554433">文字の大きさ</i></h2>
+            </section>
+            <section>
+              <span style="font-size: 800%">で</span>
+            </section>
+            <section>
+              <span style="font-size: 800%">か</span>
+            </section>
+            <section>
+              <span style="font-size: 800%">い</span>
+            </section>
+            <section>
+              <span style="font-size: 800%">ぞ</span>
+            </section>
+            <section>
+              <span style="font-size: 30%">ちっさいぞ</span>
+            </section>
+            <section>
+              <h3>&lt;span&gt;または&lt;div&gt;タグを使う</h3>
+              <hr />
+              <ul>
+                <li><code>&lt;span style="font-size: 800%"&gt;でかいぞ&lt;/span&gt;</code></li>
+                <li><code>&lt;span style="font-size: 30%"&gt;ちっさいぞ&lt;/span&gt;</code></li>
+              </ul>
+            </section>
+          </section>
+
+          <section>
+            <h3>ご清聴ありがとうございました</h3>
+          </section>
+
+          <section>
+            <h3><i class="fas fa-book" style="color:#990000"></i> 参考文献，参考サイト</h3>
+          <hr />
+          <ul>
+            <li><a href="http://www.tohoho-web.com/www.htm">とほほのHTML入門</a></li>
+            <li><a href="https://github.com/hakimel/reveal.js/">Reveal.js</a></li>
+          </ul>
+          </section>
+
+        </div>
+      </div>
+
+      <script src="dist/reveal.js"></script>
+      <script src="plugin/zoom/zoom.js"></script>
+      <script src="plugin/notes/notes.js"></script>
+      <script src="plugin/search/search.js"></script>
+      <script src="plugin/markdown/markdown.js"></script>
+      <script src="plugin/highlight/highlight.js"></script>
+      <script>
+
+       // Also available as an ES module, see:
+       // https://revealjs.com/initialization/
+       Reveal.initialize({
+         controls: true,
+         progress: true,
+         center: true,
+         hash: true,
+
+         // Learn about plugins: https://revealjs.com/plugins/
+         plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+       });
+      </script>
+    </body>
+</html>
