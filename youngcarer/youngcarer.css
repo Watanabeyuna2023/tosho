@@ -48,6 +48,12 @@ body, figure {
 	text-decoration: underline;
 }
 
+header{
+  background-image: url(images/harbor.png);
+  background-repeat: no-repeat;
+  background-size: 200px auto;
+}
+
 /* サイトタイトルをヘッダーに中央配置 */
 header h1 {
 	position: absolute;
