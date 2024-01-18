@@ -33,7 +33,7 @@ body, figure {
 	z-index: 1;
 	right: 1em;
 	bottom: 1em;
-	color: #fff;
+	color: #fffacd;
 	font-size: 1.2rem;
 	line-height: 1;
 	font-family: "Dosis", sans-serif;
@@ -56,7 +56,7 @@ header h1 {
 	width: 100%;
 	margin: 0;
 	padding: 0 .5em;
-	color: #fff;
+	color: #fffacd;
 	font-size: 5rem;
 	line-height: 1.4;
 	font-family: "Dosis", sans-serif;
@@ -525,14 +525,14 @@ p{
 
 @media screen and (max-width: 768px) {
   p{
-      background-color: black;
+      background-color: fff;
        color:green;
    }
 }
 
 @media screen and (max-width: 480px) {
   p{
-      background-color: black;
-       color:red;
+      background-color: #fff;
+       color:black;
    }
 }
