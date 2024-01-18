@@ -536,3 +536,5 @@ p{
        color:black;
    }
 }
+
+.resizeimage img { width: 100%; }
